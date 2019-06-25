@@ -12,7 +12,7 @@ public class StrawberryField extends Field {
         int totallyRandomNumber = r.nextInt(100);
 
         if(totallyRandomNumber < snailsRisk) {
-            System.out.println("oh noes, snails have attacked");//oh noes, snails have attacked
+            System.out.println("oh noes, snails have attacked my field");//oh noes, snails have attacked
             return 0;
         }
         System.out.println("no snails - returning base profit * 2 as strawberries are more expensive to standard crop!");
